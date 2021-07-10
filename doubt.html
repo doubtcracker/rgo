@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School ERP | School Management Software - MyClassboard Login</title>
+<meta name="description" content="MyClassboard, an India&#39;s pioneer in the field of School ERP is a SaaS based School Software Company in Hyderabad catering to 1200+ across India currently." />
+<meta name="keywords" content="school management software, school management system, cbse school software, school administrative software, cce software, ERP software for school management, HR and Payroll Software, Finance Management Software, Learning Management System" />
+<link rel="icon" href="https://cdnimages.myclassboard.com/home-images/favicon.png">
+<link href="https://cdndatastatic.myclassboard.com/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdndatastatic.myclassboard.com/Live_Classes/Assets/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdndatastatic.myclassboard.com/assets/css/parent_login_style.css">
+<link href="https://cdndatastatic.myclassboard.com/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style type="text/css">
+        .minheight-120 {
+            min-height: 120px;
+        }
+
+        .minheight-130 {
+            min-height: 130px;
+        }
+
+        .avatar-70 {
+            height: 70px;
+        }
+
+            .avatar-70 img {
+                height: 70px;
+            }
+
+        .btn-part1 {
+            height: 100px;
+            padding-top: 30px;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            color: #fff !important;
+            font-size: 35px !important;
+        }
+
+        .popover {
+            max-width: 100%;
+        }
+
+        .popover {
+            max-width: initial;
+        }
+
+        .slick-prev {
+            left: -14px !important;
+        }
+
+        .slick-next {
+            right: -14px !important;
+        }
+
+        slick-slide {
+            padding-top: 10px;
+        }
+
+        .slick-dotted.slick-slider {
+            margin-bottom: 0px !important;
+        }
+    </style>
+</head>
+<body class="erp-bg">
+<div class="  container-fluid wrapper-grey-bg-ad2">
+<div class="header border-bottom-light">
+<div class="width-90-percent">
+<div class="row">
+<div class="col-md-3">
+</div>
+<div class="col-md-9">
+<nav class="navbar navbar-expand-md pl-0 navbar-dark pull-right">
+<a class="navbar-brand m-0 p-0" href="javascript:void(0)"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse">
+<ul class="navbar-nav">
+<li class="nav-item mr-2">
+<a class="nav-item nav-link text-white" title="WhatsApp alerts" style="cursor:pointer;" href="/StudentERP/ERPURLRedirection?urlres=/StudentERP/WhatsAppalerts?SECode=13131050564">WhatsApp alerts </a>
+</li>
+<li class="nav-item mr-2">
+<form method="post" id="myForm" action="https://mcb.live/loginhome">
+<input type="hidden" name="DBName" id="hfDBName" value="RyanSchools" />
+<input type="hidden" name="UserID" id="hfUserID" value="343671" />
+<input type="hidden" name="OrganisationID" id="hfOrganisationID" value="1" />
+<div class="row" style="cursor:pointer;" onclick="if (!window.__cfRLUnblockHandlers) return false; Formsubmit()" data-cf-modified-7dd89b4ab0f32876f9c1c944-="">
+<div class="col-md-12">
+<a class="nav-link rounded-pill p-2 text-white" title="MCB Live" style="cursor:pointer;" href="javascript:void(0)">MCB Live</a>
+</div>
+</div>
+</form>
+</li>
+<li class="nav-item mr-2">
+<a class="nav-item nav-link text-white" title="Change Password" style="cursor:pointer;" href="/StudentERP/ERPURLRedirection?urlres=/StudentERP/ChangePassword">Change Password </a>
+</li>
+<li class="nav-item mr-2">
+<a class="nav-item nav-link text-white" title="Log Out" style="cursor:pointer;" href="/Login/LogOut">Log out</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="width-90-percent">
+<div class="row pt-3 pb-3">
+<div class="col-md-1 col-sm-12 col-xs-12">
+<div class="Orglogo">
+<img src="data:image/gif;base64,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" />
+</div>
+</div>
+<div class="col-md-11 col-sm-12 col-xs-12">
+<h3 class="text-white pt-2 mt-1 pl-4"> Ryan International School ICSE Goregaon </h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-12 col-xs-12">
+<div class="card border-radius-10" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; ">
+<div class="card-body">
+<div class="row pt-2 pb-2">
+<div class="col-auto">
+<div class="">
+<a href="javascript:void(0)" class="avatar rectangle avatar-70">
+<img class="img-fluid" src="https://cdndataryan.myclassboard.com/StudentProfilePics/1/13131050564.bmp" width="80" height="80" />
+</a>
+</div>
+</div>
+<div class="col">
+<h4 class="font-weight-bold text-muted"> MS. YANA GIRDHAR
+<h4 class="font-weight-bold text-muted"> MST. HARSHWARDHAN UNDE </h4>
+<h6 class="font-weight-normal text-muted">Project - Digipreneur </h6>
+<h6 class="font-weight-normal text-muted">Standard 9 - Sec C</h6>
+<h6 class="font-weight-normal text-muted">A Initiative To Improve Online Education</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="divpartialdata"></div>
+</div>
+</div>
+<div data-toggle="modal" data-target="#loading">
+</div>
+<div class="modal inmodal" id="loading" role="dialog" tabindex="-1" aria-hidden="true" style="position:fixed;top:200px;left:0px;height:100%;width:100%;" data-backdrop="keyboard:false">
+<div class="modal-dialog">
+<div class="modal-content animated fadeIn">
+<div class="modal-header">
+<div class="sk-spinner sk-spinner-wave">
+<div class="sk-rect1"></div>
+<div class="sk-rect2"></div>
+<div class="sk-rect3"></div>
+<div class="sk-rect4"></div>
+<div class="sk-rect5"></div>
+</div>
+<h4 class="title">Loading...</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="divwhatsapp" style="display:none;"></div>
+<script src="https://cdndatastatic.myclassboard.com/js/jquery-3.1.1.min.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src="https://cdndatastatic.myclassboard.com/js/bootstrap.min.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<link href="https://cdndatastatic.myclassboard.com/css/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+<script src="https://cdndatastatic.myclassboard.com/js/plugins/sweetalert/sweetalert.min.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src=" https://cdnimages.myclassboard.com/tooljs/js/duplicate.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src="https://cdndatastatic.myclassboard.com/js/inspina/popper.min.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src="https://cdndatastatic.myclassboard.com/js/webcam.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src="https://cdndatastatic.myclassboard.com/js/highcharts.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script src="https://cdndatastatic.myclassboard.com/js/highcharts-exporting.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<link rel="stylesheet" href="https://cdndatastatic.myclassboard.com/Scripts/slick/slick.css">
+<link rel="stylesheet" href="https://cdndatastatic.myclassboard.com/Scripts/slick/slick-theme.css">
+<script src="https://cdndatastatic.myclassboard.com/Scripts/slick/slick.min.js" type="7dd89b4ab0f32876f9c1c944-text/javascript"></script>
+<script type="7dd89b4ab0f32876f9c1c944-text/javascript">
+
+        var SECode = '13131050564';
+
+        $(document).ready(function () {
+
+
+            $('*[data-poload2]').hover(function () {
+                var e = $(this);
+                e.off("mouseenter mouseleave");
+                var str = e.data('poload2');
+                e.popover({
+                    content: str, container: 'body', placement: 'auto', html: 'true', trigger: 'hover',
+                    title: ''
+                }).popover('show');
+            });
+            BindStudentDashBoardDetails();
+
+        });
+
+        //function ViewWhatsAppModal() {
+        //    debugger;
+        //    //$("#WhatsAppModal").modal("hide");
+        //    //$('body').removeClass('modal-open');
+        //    //$('.modal-backdrop').remove();
+        //    $('#divwhatsapp').empty();
+
+        //    $("#loading").show();
+        //    $.ajax({
+        //        url: "/StudentERP/WhatsAppalerts",
+        //        type: "POST",
+        //        data: { SECode: SECode },
+        //        success: function (result) {
+        //            debugger;
+        //            $('#divwhatsapp').html(result).show();
+        //            $("#WhatsAppModal").modal("show");
+        //        },
+        //        complete: function () {
+
+        //            $("#loading").hide();
+        //        }
+
+        //    });
+
+        //}
+
+        function BindStudentDashBoardDetails() {
+
+            $("#loading").show();
+            $.ajax({
+                url: "/StudentERP/StudentHome_Partial",
+                type: "POST",
+                success: function (data) {
+                    $('#divpartialdata').empty();
+                    $("#divpartialdata").html(data).show();
+                },
+                complete: function () {
+                    $("#loading").hide();
+                }
+
+            });
+        }
+
+        function Formsubmit() {
+            $('form#myForm').submit();
+        }
+
+        function AddSibilingData() {
+            $("#loading").show();
+            $.ajax({
+                url: "/StudentERP/CheckSibilingDetails",
+                type: 'Post',
+                success: function (response) {
+
+                    if (response == 0) {
+                        swal({
+                            title: 'No Siblings are mapped to this student',
+                            type: 'warning',
+                        });
+
+                    } else {
+
+                        swal({
+                            title: "Sibling details added",
+                            type: 'success',
+                        });
+
+                        location.reload();
+                    }
+                },
+                complete: function () {
+                    $('#loading').hide();
+                }
+            });
+        }
+
+        $('#demostudents').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7dd89b4ab0f32876f9c1c944-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66c02af329850e74","token":"418f3ae82bf54b458bc032e360aaac03","version":"2021.6.0","si":10}'></script>
+<script type="text/javascript">function add_chatinline(){var hccid=54799494;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script></body>
+</html>
